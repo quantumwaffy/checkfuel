@@ -4,7 +4,7 @@ from calc import calculation
 from time import sleep
 
 dlist = []
-def startwork():
+def startgetinf():
     scan = sc()
     for file in scan.checkfiles():
         if file in dlist:
@@ -27,17 +27,23 @@ def sql():
     num_train = input("Input train number: ")
     inf = calculation()
     inf.sqlbyreq(num_train)
-def main():
-    startwork()
-    sql()
+    inf.seestation()
 
-    #TODO: добавить ввод номера поезда и запрос на выгрузку сообщений для одного поезда отсортированных по времени сообщения в порядке возрастания
+# def make():
+#     tr = calculation()
+#     tr.maketrainsql()
+# make()
+
+def main():
+    startgetinf()
+    sql()
+main()
 
 # active = True
 # while active:
 #     sleep(3)
 #     main()
-main()
+
 
 
 
