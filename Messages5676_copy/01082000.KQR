@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<A DOC="5676" KSO="000913" ID="20101020120530000000" INFO="BUG" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="A.xsd">
+   <TRAIN>
+      <PRISP>0</PRISP>
+      <IP>1400 476 1302</IP>
+      <IPP>000000000000000</IPP>
+      <NP>2609</NP>
+      <KSO>138507</KSO>
+      <KOP>P0002</KOP>
+      <DATOP>2020-10-19-06.52.00.000000</DATOP>
+      <DLVS>66</DLVS>
+      <QBR>3316</QBR>
+      <QNR>1873</QNR>
+      <NVG>55061899</NVG>
+      <NVH>95847919</NVH>
+      <TARAST>1443</TARAST>
+      <OTMLV>1</OTMLV>
+      <OTMSG>1</OTMSG>
+      <KLVP>61</KLVP>
+      <KLGP>61</KLGP>
+      <KLGRVG>32</KLGRVG>
+      <KLPRVG>29</KLPRVG>
+      <KLOSP>244</KLOSP>
+      <KODNAP1>134328</KODNAP1>
+      <OTMUU>1</OTMUU>
+      <PARK>M—</PARK>
+      <PUT>52</PUT>
+      <LOKOMOTIV>
+         <SER>240</SER>
+         <NS>06151</NS>
+         <KOP>P0002</KOP>
+         <DATOP>2020-10-19-06.52.00.000000</DATOP>
+         <KS>2</KS>
+         <VSL>1</VSL>
+         <DP>13</DP>
+         <DPP>03</DPP>
+         <REPEND>2020-10-19-03.40.00.000000</REPEND>
+         <BR>
+            <DPB>11</DPB>
+            <DPPB>11</DPPB>
+            <TNM>11111 </TNM>
+            <JAVKA>2020-10-19-03.46.00.000000</JAVKA>
+            <FAMM>”“PCA</FAMM>
+         </BR>
+      </LOKOMOTIV>
+   </TRAIN>
+</A>
+
