@@ -1,10 +1,10 @@
 from parsexml import parsing5676 as ps
 from scanfiles import scan as sc
-
+from calc import calculation
 from time import sleep
 
 dlist = []
-def main():
+def startwork():
     scan = sc()
     for file in scan.checkfiles():
         if file in dlist:
@@ -23,11 +23,22 @@ def main():
             del train
     del scan
 
+def sql():
+    num_train = input("Input train number: ")
+    inf = calculation()
+    inf.sqlbyreq(num_train)
+def main():
+    startwork()
+    sql()
 
-active = True
-while active:
-    sleep(3)
-    main()
+    #TODO: добавить ввод номера поезда и запрос на выгрузку сообщений для одного поезда отсортированных по времени сообщения в порядке возрастания
+
+# active = True
+# while active:
+#     sleep(3)
+#     main()
+main()
+
 
 
 
